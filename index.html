@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    
+    <div class="d-flex">
+        <div class="p-2 flex-fill" style="background-color: #000; width: 371.8px; height: 1115.89px; top: 1px;">
+            <img src="assets/Spotify logo.png" id="SpotifyLogo" alt="Spotify Logo">     
+            
+            <nav class="navbar  homenav">
+                <div class="container-fluid homenav-1">
+                  <a class="navbar-brand homenav-2" href="#">
+                    <img src="assets/home.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top homenav-3">
+                    <span class="homenav-4">Home</span>
+                  </a>
+                </div>
+              </nav>
+
+              <nav class="navbar homenav-5">
+                <div class="container-fluid homenav-6">
+                  <a class="navbar-brand homenav-7" href="#">
+                    <img src="assets/search.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top homenav-8">
+                    <span class="homenav-9">Search</span>
+                  </a>
+                </div>
+              </nav>
+
+              <nav class="navbar homenav-5">
+                <div class="container-fluid homenav-6">
+                  <a class="navbar-brand homenav-7" href="#">
+                    <img src="assets/library.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top homenav-8">
+                    <span class="homenav-9">Your Library</span>
+                  </a>
+                </div>
+              </nav>
+
+              <nav class="navbar createPl">
+                <div class="container-fluid createPl-1">
+                  <a class="navbar-brand createPl-2" href="#">
+                    <span class="createPl-3"><img src="assets/create playlist.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top createPl-5"></span>
+                    <span class="createPl-4">Create Playlist</span>
+                  </a>
+                </div>
+              </nav>
+
+              <nav class="navbar createPl-8">
+                <div class="container-fluid createPl-1">
+                  <a class="navbar-brand createPl-2" href="#">
+                    <span class="createPl-6"><img src="assets/like song.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top createPl-7"></span>
+                    <span class="createPl-4">Liked Songs</span>
+                  </a>
+                </div>
+              </nav>
+
+              <nav class="navbar createPl-8">
+                <div class="container-fluid createPl-1">
+                  <a class="navbar-brand createPl-2" href="#">
+                    <span class="createPl-9"><img src="assets/gg_media-podcast.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top createPl-7"></span>
+                    <span class="createPl-4">Your Episodes</span>
+                  </a>
+                </div>
+              </nav>
+
+              <div class="list">
+                <h1 class="list-1">FAV</h1>
+                <h1 class="list-1">Daily Mix 1</h1>
+                <h1 class="list-1">Discover Weekly</h1>
+                <h1 class="list-1">Malayalam</h1>
+                <h1 class="list-1">Dance / Electronix Mix</h1>
+                <h1 class="list-1">EDM / Popular</h1>
+              </div>
+
+              <nav class="navbar createPl">
+                <div class="container-fluid createPl-1">
+                  <a class="navbar-brand createPl-2" href="#">
+                    <span class="createPl-10"><img src="assets/installation.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top createPl-5"></span>
+                    <span class="createPl-4">Install App</span>
+                  </a>
+                </div>
+              </nav>
+
+        </div>
+
+        <div class="p-2 flex-fill" style="background-color: #222222; width: 1457.1px; height: 1115.89px; top: -5.39px; left: 287.9px;">
+            <div class="container">
+                <h1 id="msg">Good morning</h1>
+                <div class="row">
+    
+                    <div class="col-md-6">
+                        <div class="card mb-3" style="max-width: 400px">
+                            <div class="row g-0">
+                                <div class="col-md-4" id="liked">
+                                    <img src="assets/like song.png" class="img-fluid rounded-start" alt="HeartShape"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text">Liked Songs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-3" style="max-width: 400px">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/neffex playlist.png" class="img-fluid rounded-start" alt="playlist"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text">Neffex Playlist</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-3" style="max-width: 400px">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/kda.png" class="img-fluid rounded-start" alt="playlist"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text">K/ DA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-3" style="max-width: 400px">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/dance.png" class="img-fluid rounded-start" alt="playlist"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text">Dance / Electronic Mix</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="container1">
+                <p class="det">Shows you might like </p>
+
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16.png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">Weekly Motivatio...</h5>
+                              <p class="card-text resz-5">Ben Ina Scott</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (1).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">MEDITATION SELF</h5>
+                              <p class="card-text resz-5">Ibn Hussain Aleen</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (2).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">Words beyond act...</h5>
+                              <p class="card-text resz-5">Samuel Scott</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (3).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">The Alexa Show</h5>
+                              <p class="card-text resz-5">Adriana Tom</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (4).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">The Alexa Show</h5>
+                              <p class="card-text resz-5">Adriana Tom</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (4).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">The Alexa Show</h5>
+                              <p class="card-text resz-5">Adriana Tom</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (4).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">The Alexa Show</h5>
+                              <p class="card-text resz-5">Adriana Tom</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card resz">
+                          <img src="assets/Rectangle 16 (4).png" class="card-img-top resz-2" alt="...">
+                          <div class="card-body resz-3">
+                              <h5 class="card-title resz-4">The Alexa Show</h5>
+                              <p class="card-text resz-5">Adriana Tom</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div> 
+
+    <div class="footer">
+        <div class="f1">
+            <img src="assets/footerSongName.png"  alt="recentSongName"/>
+        </div>
+        <div class="f2">
+            <img src="assets/Music Player Options.png" alt="Music Player">
+        </div>
+        <div class="f3">
+            <img src="assets/Right options.png" alt="Music Player">
+        </div>
+        <div class="f4">
+            <img src="assets/Listening on DEVICE.png" alt="">
+        </div>
+    </div>      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" ></script>
+  </body>
+</html>

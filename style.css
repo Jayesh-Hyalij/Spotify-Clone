@@ -1,0 +1,339 @@
+*{
+    overflow-x: hidden;
+}
+
+#SpotifyLogo {
+    width: 202.58px;
+    height: 60.53px;
+    margin-top: 39.29px;
+    margin-left: 35.82px;
+    gap: 0px;
+    opacity: 0px;   
+}
+
+#msg {
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.container {
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    width: 1147px;
+    height: 294px;
+    margin-top: 112px;
+    margin-left: auto;
+}
+
+.card-body {
+  background-color: #303030;
+  height: 100px;
+  width: 550px;
+  align-content: center;
+}
+
+.col-md-4 {
+  background-color: #303030;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.col-md-6 {
+  width: 360px;
+  margin-left: 20px;
+}
+
+.card-text {
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.04px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.card {
+  border: none; /* Remove default border */
+  width: 700px;
+}
+
+.row.g-0 {
+  /* Remove background color */
+  background-color: transparent;
+}
+
+#liked {
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+    text-align: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.container1 {
+  width: 1103.07px;
+  height: 694px;
+  top: 438px;
+  margin-left: 30px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 0px solid #222222;
+  overflow: hidden;
+}
+
+.det {
+  color: #FFFFFF;
+  font-family: DM Sans;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  text-align: left;
+  width: 304.6px;
+  height: 60.96px;
+  top: 438px;
+  line-height: 37.76px;
+}
+
+.footer {
+  width: 1728px;
+  height: 120px;
+  top: 983px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.f1 {
+  width: 224.88px;
+  height: 70px;
+  margin-top: auto;
+  left: 17.09px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.f2 {
+  width: 704px;
+  height: 80px;
+  margin-top: -70px;
+  margin-left: 400px;
+  gap: 0px;
+  border-radius: 2.5px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.f3 {
+  width: 270.76px;
+  height: 32px;
+  top: 1021px;
+  left: 1431.15px;
+  gap: 0px;
+  border-radius: 2.5px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: -70px;
+  margin-left: 1200px;
+  margin-right: 5px;
+}
+
+.f4 {
+  margin-top: 35px;
+  overflow: auto;
+  width: 1728px;
+  margin-left: -200px;
+  height: 41px;
+  top: 1076px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.col {
+  border-radius: 0px 0px 0px 0px;
+  background-color: #222222;
+}
+
+.resz {
+  background-color: #222222;
+  width: 251.29px;
+  height: 305.9px;
+  margin: auto; /* Center the card horizontally */
+  align-items: center;
+}
+
+.resz-2 {
+  background-color: #222222;
+  width: 207.78px;
+  height: 207.93px;
+  border-radius: 14px 0px 0px 0px;
+  background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+}
+
+.resz-3,
+
+.resz-4 {
+  width: 211.04px;
+height: 27.22px;
+top: 764.59px;
+left: 440.76px;
+gap: 0px;
+opacity: 0px;
+font-family: DM Sans;
+font-size: 21px;
+font-weight: 500;
+line-height: 27.34px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #FFFFFF;
+background-color: #222222;
+}
+
+.resz-5 {
+  width: 140.43px;
+  height: 21.77px;
+  top: 798.34px;
+  left: 441.84px;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19.53px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #B3B3B3;
+}
+
+.homenav {
+  background-color: #282828;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.homenav-1 {
+  background-color: #282828;
+}
+
+.homenav-2 {
+  background-color: #282828;
+  color: #FFFFFF;
+}
+
+.homenav-3 {
+  margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.homenav-4 {}
+
+.d-flex {
+  background-color: #282828;
+}
+
+.homenav-5 {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.homenav-6 {
+  
+}
+
+.homenav-7 {
+  color: #ffffff;
+}
+
+.homenav-8 {
+  margin-right: 15px;
+}
+
+.homenav-9:hover {
+  color: aliceblue;
+}
+
+.homenav-4:hover {
+  color: aliceblue;
+}
+
+.createPl {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.createPl-2 {
+  color: #ffffff;
+}
+
+.createPl-3 {
+  margin-right: 15px;
+  background-color: #ffffff;
+  width: 0.2px;
+}
+
+.createPl-4:hover  {
+  color: aliceblue;
+}
+
+.createPl-5 {
+  align-content: center;
+}
+
+.createPl-6 {
+  margin-right: 15px;
+  width: 2px;
+  padding: 0px;
+  background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.createPl-7 {
+  align-content: center;
+  padding: 5px;
+}
+
+.createPl-8 {
+  margin-top: -1px;
+  margin-left: 10px;
+}
+
+.createPl-9 {
+  background-color: #004638;
+  margin-right: 15px;
+}
+
+.list {
+  width: 500px;
+  height: 277.92px;
+  margin-top: 50px;
+  margin-left: 30px;
+  gap: 0px;
+  opacity: 0px;
+  overflow: hidden;
+}
+
+.list-1 {
+  height: 30.88px;
+  top: 580.32px;
+  left: 38.29px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24.74px;
+  letter-spacing: -0.0525em;
+  text-align: left;
+  overflow: hidden;
+}
+
+.createPl-10 {
+  margin-right: 15px;
+}
